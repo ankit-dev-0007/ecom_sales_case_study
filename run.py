@@ -12,7 +12,7 @@ Options:
 import sys
 import logging
 from pyspark.sql import SparkSession
-
+%pip install openpyxl pandas
 # Configure logging
 logging.basicConfig(
     level=logging.INFO,
